@@ -16,9 +16,9 @@ from scipy.optimize import brentq
 
 $$\Large fw(u)=\frac{u^2}{u^2+\frac{(1-u)^2}{M}}$$
 
-![](images/equation_21.png)
+![](../images/equation_21.png)
 
-$$\large u^{*}$$ = shock location
+$$\large u^{*} = shock location$$
 
 #### Rankine-Hugoniot Condition:
 
@@ -26,11 +26,11 @@ $$\Large f'w(u^{*})=\frac{fw(u^{*}) - fw(u)_{u=0}}{u^{*} - u_{u=0}}$$
 
 $$\large u(\frac{x}{t}) = (f'w)^{-1} (\frac{x}{t})$$
 
-$$\large \frac{x}{t}$$ = similarity variable
+$$\large \frac{x}{t} = similarity variable$$
 
 ### Expected result:
 
-![](images/nonconvex_flow_results.png)
+![](../images/nonconvex_flow_results.png)
 
 
 ```python
