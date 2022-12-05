@@ -24,4 +24,4 @@ b)
 
 3.
 
-> Using the data generated in 1b make a model of reduced order using PCA to estimate `qhat`. Use `qhat` to estimate train matrices and validation lambdas. Using estimated matrices, rebuild `q` using `t` larger than in training data. Compare `q` with 1b solution. Use OpInf to evolve this model in time, then move back to original domain
+> Using the data generated in 1b make a model of reduced order using PCA and extrapolate the training data, move back to original domain and check results
